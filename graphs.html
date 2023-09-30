@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Frontend - Graphs</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-bold mb-4">Graphs</h1>
+        <div class="grid grid-cols-2 gap-4">
+            <div id="bar-chart" class="bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-bold mb-2">Bar Chart</h2>
+                <div class="h-64 bg-gray-200 rounded">
+                    <!-- Fictional data for bar chart -->
+                    <div class="h-16 bg-blue-500 rounded"></div>
+                    <div class="h-32 bg-red-500 rounded"></div>
+                    <div class="h-48 bg-green-500 rounded"></div>
+                    <div class="h-64 bg-yellow-500 rounded"></div>
+                </div>
+            </div>
+            <div id="pie-chart" class="bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-bold mb-2">Pie Chart</h2>
+                <div class="h-64 bg-gray-200 rounded">
+                    <!-- Fictional data for pie chart -->
+                    <div class="w-1/4 h-full bg-blue-500 rounded-l"></div>
+                    <div class="w-1/4 h-full bg-red-500"></div>
+                    <div class="w-1/4 h-full bg-green-500"></div>
+                    <div class="w-1/4 h-full bg-yellow-500 rounded-r"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
