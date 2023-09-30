@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Frontend</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div id="sidebar" class="w-64 h-full bg-white fixed">
+        <div class="p-6">
+            <h1 class="text-3xl font-semibold">CRM Frontend</h1>
+            <nav class="mt-6">
+                <a href="home.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Home</a>
+                <a href="contacts.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Contacts</a>
+                <a href="customers.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Customers</a>
+                <a href="accounts.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Accounts</a>
+            </nav>
+        </div>
+    </div>
+    <div class="ml-64 p-6">
+        <h1 class="text-3xl font-semibold">Welcome to CRM Frontend</h1>
+        <div class="mt-6 grid grid-cols-2 gap-6">
+            <div id="total-revenue" class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold">Total Revenue</h2>
+                <p class="mt-2 text-gray-600">Fictional Data: $1,000,000</p>
+            </div>
+            <div id="pnl-past-six-months" class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold">P&L for Past 6 Months</h2>
+                <p class="mt-2 text-gray-600">Fictional Data: $500,000</p>
+            </div>
+        </div>
+        <div class="mt-6">
+            <div id="income-sources" class="bg-white p-6 rounded shadow">
+                <h2 class="text-xl font-semibold">Income Sources</h2>
+                <p class="mt-2 text-gray-600">Fictional Data: Product Sales, Services, Investments</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
