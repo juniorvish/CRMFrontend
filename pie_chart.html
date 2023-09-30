@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pie Chart</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto">
+        <h1 class="text-4xl font-bold text-center my-8">Pie Chart</h1>
+        <div id="pie-chart" class="w-full h-64 bg-white rounded shadow p-6">
+            <svg class="pie-chart" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="40 60" stroke-dashoffset="25"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e" stroke-width="3" stroke-dasharray="20 80" stroke-dashoffset="85"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#377bbc" stroke-width="3" stroke-dasharray="30 70" stroke-dashoffset="65"></circle>
+            </svg>
+            <div class="legend flex justify-around mt-4">
+                <div class="flex items-center">
+                    <div class="w-4 h-4 mr-2 bg-pink-600"></div>
+                    <span>Segment 1</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 mr-2 bg-green-600"></div>
+                    <span>Segment 2</span>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-4 h-4 mr-2 bg-blue-600"></div>
+                    <span>Segment 3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
